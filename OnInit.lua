@@ -137,6 +137,7 @@ aura_env.dragon_isles_alchemy = {
 
 aura_env.dragon_isles_blacksmithing = {
     {name = "Treatise", quests = {74109}},
+    {name = "Work Orders Quest", quests = {70589}, coords = "Valdrakken 35.37 58.79"},
 }
 
 aura_env.dragon_isles_enchanting = {
@@ -154,6 +155,7 @@ aura_env.dragon_isles_enchanting = {
 
 aura_env.dragon_isles_engineering = {
     {name = "Treatise", quests = {74111}},
+    {name = "Work Orders Quest", quests = {70591}, coords = "Valdrakken 35.37 58.79"},
     {name = "Profession Master", quests = {70252}, coords = "The Azure Span:Dragon Isles 17.8 21.7"},
     {name = "Boomthyr Rocket", quests = {70270}, coords = "The Waking Shores 56.0 44.9"},
     {name = "Intact Coil Capacitor", quests = {70275}, coords = "The Waking Shores 49.09 77.54"},
@@ -165,10 +167,12 @@ aura_env.dragon_isles_herbalism = {
 
 aura_env.dragon_isles_inscription = {
     {name = "Treatise", quests = {74105}},
+    {name = "Work Orders Quest", quests = {70592}, coords = "Valdrakken 35.37 58.79"},
 }
 
 aura_env.dragon_isles_jewelcrafting = {
     {name = "Treatise", quests = {74112}},
+    {name = "Work Orders Quest", quests = {70593}, coords = "Valdrakken 35.37 58.79"},
     {name = "Profession Master", quests = {70255}, coords = "The Azure Span:Dragon Isles 46.23 40.84"},
     {name = "Closely Guarded Shiny", quests = {70292}, coords = "The Waking Shores 50.4 45.1"},
     {name = "Igneous Gem", quests = {70273}, coords = "The Waking Shores 33.9 63.7"},
@@ -182,6 +186,7 @@ aura_env.dragon_isles_jewelcrafting = {
 
 aura_env.dragon_isles_leatherworking = {
     {name = "Treatise", quests = {74113}},
+    {name = "Work Orders Quest", quests = {70594}, coords = "Valdrakken 35.37 58.79"},
     {name = "Profession Master", quests = {70256}, coords = "Ohn'Ahran Plains 82.45 50.67"},
     {name = "Poacher's Pack", quests = {70308}, coords = "The Waking Shores 39 86"},
     {name = "Spare Djaradin Tools", quests = {70280}, coords = "The Waking Shores 64.3 25.4"},
@@ -202,6 +207,7 @@ aura_env.dragon_isles_skinning = {
 
 aura_env.dragon_isles_tailoring = {
     {name = "Treatise", quests = {74115}},
+    {name = "Work Orders Quest", quests = {70595}, coords = "Valdrakken 35.37 58.79"},
 }
 
 aura_env.quest_completed = function(quest)
