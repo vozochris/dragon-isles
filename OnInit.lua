@@ -290,7 +290,7 @@ aura_env.add_lines = function(states, entries, separator, starting_index, is_NPC
             end
         end
         
-        if c > 0 then
+        if c > 0 and c == quests_count then
             for _, vignette in pairs(aura_env.vignettes) do
                 if entry.name == vignette.name then
                     has_vignette = true
