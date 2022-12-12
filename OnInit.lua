@@ -191,6 +191,9 @@ aura_env.dragon_isles_inscription = {
     {name = "Profession Trainer Quest", quests = {70558, 70559}, coords = "Valdrakken 38.83 73.33"},
     {name = "Consortium Trade Quest", quests = {66943, 66944}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70592}, coords = "Valdrakken 35.37 58.79"},
+
+    -- one-time
+    {name = "Profession Master", quests = {70254}, coords = "The Azure Span:Dragon Isles 40.15 64.34"},
 }
 
 aura_env.dragon_isles_jewelcrafting = {
