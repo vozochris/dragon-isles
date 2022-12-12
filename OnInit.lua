@@ -121,21 +121,15 @@ aura_env.dragon_isles_quests = {
     {name = "Tarjin's Tales", quests = {70779}, coords = "The Waking Shores 16.0 62.6"},
 }
 
-aura_env.dragon_isles_inscription = {
-    {name = "Treatise", quests = {74105}},
-}
-
-aura_env.dragon_isles_mining = {
-    {name = "Treatise", quests = {74106}},
-}
-
-aura_env.dragon_isles_herbalism = {
-    {name = "Treatise", quests = {74107}},
-}
+-- PROFESSIONS
 
 aura_env.dragon_isles_alchemy = {
+    -- weekly
     {name = "Treatise", quests = {74108}},
-    {name = "Master Alchemist", quests = {70247}, coords = "The Waking Shores 60.92 75.84"},
+    {name = "Profession Trainer Quest", quests = {70531, 70533}, coords = "Valdrakken 36.41 71.69"},
+
+    -- one-time
+    {name = "Profession Master", quests = {70247}, coords = "The Waking Shores 60.92 75.84"},
     {name = "Frostforged Potion", quests = {70274}, coords = "The Waking Shores 55.0 81.0"},
     {name = "Well Insulated Mug", quests = {70289}, coords = "The Waking Shores 25.1 73.3"},
     {name = "Canteen of Suspicious Water", quests = {70305}, coords = "Ohn'ahran Plains 79.2 83.8"},
@@ -146,11 +140,18 @@ aura_env.dragon_isles_alchemy = {
 }
 
 aura_env.dragon_isles_blacksmithing = {
+    -- weekly
     {name = "Treatise", quests = {74109}},
+    {name = "Profession Trainer Quest", quests = {70233, 70235}, coords = "Valdrakken 36.97 47.10"},
+    {name = "Work Orders Quest", quests = {70589}, coords = "Valdrakken 35.37 58.79"},
 }
 
 aura_env.dragon_isles_enchanting = {
+    -- weekly
     {name = "Treatise", quests = {74110}},
+    {name = "Profession Trainer Quest", quests = {72172, 72175}, coords = "Valdrakken 31.05 61.38"},
+
+    -- one-time
     {name = "Profession Master", quests = {70251}, coords = "Ohn'Ahran Plains 62.42 18.70"},
     {name = "Flashfrozen Scroll", quests = {70320}, coords = "The Waking Shores 57.5 83.6"},
     {name = "Lava-Infused Seed", quests = {70283}, coords = "The Waking Shores 68.0 26.8"},
@@ -163,14 +164,37 @@ aura_env.dragon_isles_enchanting = {
 }
 
 aura_env.dragon_isles_engineering = {
+    -- weekly
     {name = "Treatise", quests = {74111}},
+    {name = "Profession Trainer Quest", quests = {70540, 70557}, coords = "Valdrakken 42.25 48.62"},
+    {name = "Work Orders Quest", quests = {70591}, coords = "Valdrakken 35.37 58.79"},
+
+    -- one-time
     {name = "Profession Master", quests = {70252}, coords = "The Azure Span:Dragon Isles 17.8 21.7"},
     {name = "Boomthyr Rocket", quests = {70270}, coords = "The Waking Shores 56.0 44.9"},
     {name = "Intact Coil Capacitor", quests = {70275}, coords = "The Waking Shores 49.09 77.54"},
 }
 
+aura_env.dragon_isles_herbalism = {
+    -- weekly
+    {name = "Treatise", quests = {74107}},
+    {name = "Profession Trainer Quest", quests = {70613}, coords = "Valdrakken 37.72 67.95"},
+}
+
+aura_env.dragon_isles_inscription = {
+    -- weekly
+    {name = "Treatise", quests = {74105}},
+    {name = "Profession Trainer Quest", quests = {70558, 70559}, coords = "Valdrakken 38.83 73.33"},
+    {name = "Work Orders Quest", quests = {70592}, coords = "Valdrakken 35.37 58.79"},
+}
+
 aura_env.dragon_isles_jewelcrafting = {
+    -- weekly
     {name = "Treatise", quests = {74112}},
+    {name = "Profession Trainer Quest", quests = {70563, 70565}, coords = "Valdrakken 40.81 61.12"},
+    {name = "Work Orders Quest", quests = {70593}, coords = "Valdrakken 35.37 58.79"},
+
+    -- one-time
     {name = "Profession Master", quests = {70255}, coords = "The Azure Span:Dragon Isles 46.23 40.84"},
     {name = "Closely Guarded Shiny", quests = {70292}, coords = "The Waking Shores 50.4 45.1"},
     {name = "Igneous Gem", quests = {70273}, coords = "The Waking Shores 33.9 63.7"},
@@ -183,7 +207,12 @@ aura_env.dragon_isles_jewelcrafting = {
 }
 
 aura_env.dragon_isles_leatherworking = {
+    -- weekly
     {name = "Treatise", quests = {74113}},
+    {name = "Profession Trainer Quest", quests = {70571, 70567}, coords = "Valdrakken 28.56 61.33"},
+    {name = "Work Orders Quest", quests = {70594}, coords = "Valdrakken 35.37 58.79"},
+
+    -- one-time
     {name = "Profession Master", quests = {70256}, coords = "Ohn'Ahran Plains 82.45 50.67"},
     {name = "Poacher's Pack", quests = {70308}, coords = "The Waking Shores 39 86"},
     {name = "Spare Djaradin Tools", quests = {70280}, coords = "The Waking Shores 64.3 25.4"},
@@ -194,12 +223,23 @@ aura_env.dragon_isles_leatherworking = {
     {name = "Decayed Scales", quests = {70294}, coords = "Thaldraszus 56.8 30.5"},
 }
 
+aura_env.dragon_isles_mining = {
+    -- weekly
+    {name = "Treatise", quests = {74106}},
+    {name = "Profession Trainer Quest", quests = {70168, 72157}, coords = "Valdrakken 38.87 51.45"},
+}
+
 aura_env.dragon_isles_skinning = {
+    -- weekly
     {name = "Treatise", quests = {74114}},
+    {name = "Profession Trainer Quest", quests = {72159}, coords = "Valdrakken 28.56 60.41"},
 }
 
 aura_env.dragon_isles_tailoring = {
+    -- weekly
     {name = "Treatise", quests = {74115}},
+    {name = "Profession Trainer Quest", quests = {70582, 70586}, coords = "Valdrakken 31.91 67.18"},
+    {name = "Work Orders Quest", quests = {70595}, coords = "Valdrakken 35.37 58.79"},
 }
 
 aura_env.quest_completed = function(quest)
@@ -287,7 +327,7 @@ aura_env.add_lines = function(states, rares, separator, starting_index, is_NPC)
                     name = rare.name,
                     prepend = prepend,
                     append = append,
-                    completed = c == 0,
+                    completed = c < quests_count,
                     has_vignette = has_vignette,
                     index = index
                 }
