@@ -15,11 +15,11 @@ aura_env.dragon_isles_obsidian_citadel = {
     {name = "Hands-Off Operation", quests = {66449}},
     {name = "Feeding the Fire", quests = {66308}},
     --Wrathion
-    {name = "Keys of Loyalty", quests = {66133}, required = {66802}},
-    {name = "Securing Our Legacy", quests = {72448}, required = {66802}},
+    {name = "Keys of Loyalty", quests = {66133}, required_quests = {66802}},
+    {name = "Securing Our Legacy", quests = {72448}, required_quests = {66802}},
     --Sabellian
-    {name = "Keys of Loyalty", quests = {66805}, required = {66808}},
-    {name = "Greatest of Threats", quests = {72447}, required = {66808}},
+    {name = "Keys of Loyalty", quests = {66805}, required_quests = {66808}},
+    {name = "Greatest of Threats", quests = {72447}, required_quests = {66808}},
 }
 
 aura_env.dragon_isles_war_mode = {
@@ -246,11 +246,11 @@ aura_env.quest_completed = function(quest)
     return C_QuestLog.IsQuestFlaggedCompleted(quest)
 end
 
-aura_env.add_lines = function(states, rares, separator, starting_index, is_NPC)
+aura_env.add_lines = function(states, entries, separator, starting_index, is_NPC)
     local index = starting_index + 1
-    local has_rares = false
+    local added_lines = false
     
-    for _, rare in ipairs(rares) do
+    for _, entry in ipairs(entries) do
         local c = 0
         local quests_count = 0
         local show = false
@@ -258,15 +258,15 @@ aura_env.add_lines = function(states, rares, separator, starting_index, is_NPC)
         local requirement = true
         local filtered = false
         
-        for _, q in ipairs(aura_env.config["filter"]) do
-            if (rare.name == q.name) then
+        for _, filter in ipairs(aura_env.config["filter"]) do
+            if (entry.name == filter.name) then
                 filtered = true
             end
         end
         
-        if not filtered and rare.required then
-            for _, q in ipairs(rare.required) do
-                if not aura_env.quest_completed(q) then
+        if not filtered and entry.required_quests then
+            for _, required_quest in ipairs(entry.required_quests) do
+                if not aura_env.quest_completed(required_quest) then
                     requirement = false
                     break
                 end
@@ -274,9 +274,9 @@ aura_env.add_lines = function(states, rares, separator, starting_index, is_NPC)
         end
         
         if not filtered and requirement then
-            for _, q in ipairs(rare.quests) do
+            for _, quest in ipairs(entry.quests) do
                 quests_count = quests_count + 1
-                if not aura_env.quest_completed(q) then
+                if not aura_env.quest_completed(quest) then
                     c = c + 1
                 end
             end
@@ -284,7 +284,7 @@ aura_env.add_lines = function(states, rares, separator, starting_index, is_NPC)
         
         if c > 0 then
             for _, vignette in pairs(aura_env.vignettes) do
-                if rare.name == vignette.name then
+                if entry.name == vignette.name then
                     has_vignette = true
                     break
                 end
@@ -298,7 +298,7 @@ aura_env.add_lines = function(states, rares, separator, starting_index, is_NPC)
             local append = ""
             
             if is_NPC then
-                if rare.super then
+                if entry.super then
                     prepend = WrapTextInColorCode("[S] ", "FFDDDDDD")
                 elseif aura_env.config["show_only_super_rares"] then
                     show = false
@@ -306,12 +306,12 @@ aura_env.add_lines = function(states, rares, separator, starting_index, is_NPC)
             end
             
             if show then
-                if rare.coords and aura_env.config["show_coords"] then
-                    append = append .. WrapTextInColorCode(" (" .. rare.coords .. ")", "FFDDDDDD")
+                if entry.coords and aura_env.config["show_coords"] then
+                    append = append .. WrapTextInColorCode(" (" .. entry.coords .. ")", "FFDDDDDD")
                 end
                 
-                if rare.info and aura_env.config["show_info"] then
-                    append = append .. WrapTextInColorCode(" (" .. rare.info .. ")", "FFDDDDDD")
+                if entry.info and aura_env.config["show_info"] then
+                    append = append .. WrapTextInColorCode(" (" .. entry.info .. ")", "FFDDDDDD")
                 end
                 
                 if quests_count == 0 then
@@ -322,9 +322,9 @@ aura_env.add_lines = function(states, rares, separator, starting_index, is_NPC)
                     append = append .. " <---"
                 end
                 
-                states[rare] = {
+                states[entry] = {
                     show = true,
-                    name = rare.name,
+                    name = entry.name,
                     prepend = prepend,
                     append = append,
                     completed = c < quests_count,
@@ -332,21 +332,33 @@ aura_env.add_lines = function(states, rares, separator, starting_index, is_NPC)
                     index = index
                 }
                 index = index + 1
-                has_rares = true
+                added_lines = true
             end
         end
     end
     
-    if has_rares then
+    if added_lines then
         states["category_" .. separator] =  {
             show = true,
             name = separator,
             category = true,
             index = starting_index
         }
+        if aura_env.config["add_empty_line_after_category"] then
+            index = aura_env.add_empty_line(states, index)
+        end
     end
     
     return index
+end
+
+aura_env.add_empty_line = function(states, starting_index)
+    states["empty_" .. starting_index] = {
+        show = true,
+        name = "",
+        index = starting_index
+    }
+    return starting_index + 1
 end
 
 aura_env.vignettes = {}
