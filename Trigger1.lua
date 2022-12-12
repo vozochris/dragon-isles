@@ -6,8 +6,8 @@ function(states, event, ...)
         local on_minimap = select(2, ...)
         
         if on_minimap then
-            local vignetteInfo = C_VignetteInfo.GetVignetteInfo(vignette_GUID)
-            aura_env.vignettes[vignette_GUID] = vignetteInfo
+            local vignette_info = C_VignetteInfo.GetVignetteInfo(vignette_GUID)
+            aura_env.vignettes[vignette_GUID] = vignette_info
         else
             aura_env.vignettes[vignette_GUID] = nil
         end
