@@ -125,7 +125,7 @@ aura_env.dragon_isles_quests = {
 
 aura_env.dragon_isles_alchemy = {
     {name = "Treatise", quests = {74108}},
-    {name = "Master Alchemist", quests = {70247}, coords = "The Waking Shores 60.92 75.84"},
+    {name = "Profession Master", quests = {70247}, coords = "The Waking Shores 60.92 75.84"},
     {name = "Frostforged Potion", quests = {70274}, coords = "The Waking Shores 55.0 81.0"},
     {name = "Well Insulated Mug", quests = {70289}, coords = "The Waking Shores 25.1 73.3"},
     {name = "Canteen of Suspicious Water", quests = {70305}, coords = "Ohn'ahran Plains 79.2 83.8"},
