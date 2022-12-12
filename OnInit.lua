@@ -206,8 +206,8 @@ aura_env.quest_completed = function(quest)
     return C_QuestLog.IsQuestFlaggedCompleted(quest)
 end
 
-aura_env.add_lines = function(allStates, rares, separator, startingIndex, isNPC)
-    local index = startingIndex + 1
+aura_env.add_lines = function(states, rares, separator, starting_index, is_NPC)
+    local index = starting_index + 1
     local has_rares = false
     
     for _, rare in ipairs(rares) do
@@ -257,7 +257,7 @@ aura_env.add_lines = function(allStates, rares, separator, startingIndex, isNPC)
             local prepend = ""
             local append = ""
             
-            if isNPC then
+            if is_NPC then
                 if rare.super then
                     prepend = WrapTextInColorCode("[S] ", "FFDDDDDD")
                 elseif aura_env.config["show_only_super_rares"] then
@@ -282,7 +282,7 @@ aura_env.add_lines = function(allStates, rares, separator, startingIndex, isNPC)
                     append = append .. " <---"
                 end
                 
-                allStates[rare] = {
+                states[rare] = {
                     show = true,
                     name = rare.name,
                     prepend = prepend,
@@ -298,11 +298,11 @@ aura_env.add_lines = function(allStates, rares, separator, startingIndex, isNPC)
     end
     
     if has_rares then
-        allStates["category_" .. separator] =  {
+        states["category_" .. separator] =  {
             show = true,
             name = separator,
             category = true,
-            index = startingIndex
+            index = starting_index
         }
     end
     
