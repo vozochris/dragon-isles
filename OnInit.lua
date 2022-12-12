@@ -121,17 +121,7 @@ aura_env.dragon_isles_quests = {
     {name = "Tarjin's Tales", quests = {70779}, coords = "The Waking Shores 16.0 62.6"},
 }
 
-aura_env.dragon_isles_inscription = {
-    {name = "Treatise", quests = {74105}},
-}
-
-aura_env.dragon_isles_mining = {
-    {name = "Treatise", quests = {74106}},
-}
-
-aura_env.dragon_isles_herbalism = {
-    {name = "Treatise", quests = {74107}},
-}
+-- PROFESSIONS
 
 aura_env.dragon_isles_alchemy = {
     {name = "Treatise", quests = {74108}},
@@ -169,6 +159,14 @@ aura_env.dragon_isles_engineering = {
     {name = "Intact Coil Capacitor", quests = {70275}, coords = "The Waking Shores 49.09 77.54"},
 }
 
+aura_env.dragon_isles_herbalism = {
+    {name = "Treatise", quests = {74107}},
+}
+
+aura_env.dragon_isles_inscription = {
+    {name = "Treatise", quests = {74105}},
+}
+
 aura_env.dragon_isles_jewelcrafting = {
     {name = "Treatise", quests = {74112}},
     {name = "Profession Master", quests = {70255}, coords = "The Azure Span:Dragon Isles 46.23 40.84"},
@@ -192,6 +190,10 @@ aura_env.dragon_isles_leatherworking = {
     {name = "Decay-Infused Tanning Oil", quests = {70266}, coords = "The Azure Span:Dragon Isles 16.7 38.8"},
     {name = "Treated Hides", quests = {70286}, coords = "The Azure Span:Dragon Isles 57.5 41.3"},
     {name = "Decayed Scales", quests = {70294}, coords = "Thaldraszus 56.8 30.5"},
+}
+
+aura_env.dragon_isles_mining = {
+    {name = "Treatise", quests = {74106}},
 }
 
 aura_env.dragon_isles_skinning = {
