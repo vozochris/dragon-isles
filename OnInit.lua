@@ -327,7 +327,7 @@ aura_env.add_lines = function(states, rares, separator, starting_index, is_NPC)
                     name = rare.name,
                     prepend = prepend,
                     append = append,
-                    completed = c == 0,
+                    completed = c < quests_count,
                     has_vignette = has_vignette,
                     index = index
                 }
