@@ -146,6 +146,9 @@ aura_env.dragon_isles_blacksmithing = {
     {name = "Profession Trainer Quest", quests = {70233, 70235}, coords = "Valdrakken 36.97 47.10"},
     {name = "Consortium Trade Quest", quests = {66517, 66897}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70589}, coords = "Valdrakken 35.37 58.79"},
+
+    -- one-time
+    {name = "Profession Master", quests = {70250}, coords = "The Waking Shores 43.30 66.65"},
 }
 
 aura_env.dragon_isles_enchanting = {
@@ -183,6 +186,9 @@ aura_env.dragon_isles_herbalism = {
     -- weekly
     {name = "Treatise", quests = {74107}},
     {name = "Profession Trainer Quest", quests = {70613}, coords = "Valdrakken 37.72 67.95"},
+
+    -- one-time
+    {name = "Profession Master", quests = {70253}, coords = "Ohn'Ahran Plains 58.38 50.01"},
 }
 
 aura_env.dragon_isles_inscription = {
@@ -237,12 +243,18 @@ aura_env.dragon_isles_mining = {
     -- weekly
     {name = "Treatise", quests = {74106}},
     {name = "Profession Trainer Quest", quests = {70168, 72157}, coords = "Valdrakken 38.87 51.45"},
+
+    -- one-time
+    {name = "Profession Master", quests = {70258}, coords = "Thaldraszus 61.43 76.87"},
 }
 
 aura_env.dragon_isles_skinning = {
     -- weekly
     {name = "Treatise", quests = {74114}},
     {name = "Profession Trainer Quest", quests = {72159}, coords = "Valdrakken 28.56 60.41"},
+
+    -- one-time
+    {name = "Profession Master", quests = {70259}, coords = "The Waking Shores 73.28 69.72"},
 }
 
 aura_env.dragon_isles_tailoring = {
