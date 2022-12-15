@@ -5,6 +5,7 @@ aura_env.dragon_isles_general = {
     {name = "Siege on Dragonbane Keep", quests = {70866}},
     {name = "Grand Hunt", quests = {70906}},
     {name = "Community Feast", quests = {70893}},
+    {name = "World Boss", quests = {72056}},
 }
 
 aura_env.dragon_isles_obsidian_citadel = {
