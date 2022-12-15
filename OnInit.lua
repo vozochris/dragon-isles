@@ -11,9 +11,9 @@ aura_env.dragon_isles_obsidian_citadel = {
     {name = "Allegiance to One", quests = {66419}},
     {name = "Disarming Behaviour", quests = {65842}},
     {name = "Shaking our Foundation", quests = {69918}},
-    {name = "Dragon Eyes", quests = {67099}},
-    {name = "Hands-Off Operation", quests = {66449}},
-    {name = "Feeding the Fire", quests = {66308}},
+    {name = "Exadria Quest", quests = {67099, 66445}},
+    {name = "Exadria/Voraxian Quest", quests = {66449, 67142}},
+    {name = "Stoker Volrax Quest", quests = {66308, 66326}},
     --Wrathion
     {name = "Keys of Loyalty", quests = {66133}, required_quests = {66802}},
     {name = "Securing Our Legacy", quests = {72448}, required_quests = {66802}},
