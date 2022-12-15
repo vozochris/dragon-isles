@@ -127,8 +127,8 @@ aura_env.dragon_isles_quests = {
 aura_env.dragon_isles_alchemy = {
     -- weekly
     {name = "Treatise", quests = {74108}},
-    {name = "Profession Trainer Quest", quests = {70531, 70533}, coords = "Valdrakken 36.41 71.69"},
-    {name = "Consortium Trade Quest", quests = {66940}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Profession Trainer Quest", quests = {70531, 70533, 70532}, coords = "Valdrakken 36.41 71.69"},
+    {name = "Consortium Trade Quest", quests = {66940, 72427}, coords = "Valdrakken 36.84 62.95"},
 
     -- one-time
     {name = "Profession Master", quests = {70247}, coords = "The Waking Shores 60.92 75.84"},
@@ -174,7 +174,7 @@ aura_env.dragon_isles_engineering = {
     -- weekly
     {name = "Treatise", quests = {74111}},
     {name = "Profession Trainer Quest", quests = {70540, 70557}, coords = "Valdrakken 42.25 48.62"},
-    {name = "Consortium Trade Quest", quests = {66891}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Consortium Trade Quest", quests = {66891, 66890}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70591}, coords = "Valdrakken 35.37 58.79"},
 
     -- one-time
@@ -206,8 +206,8 @@ aura_env.dragon_isles_inscription = {
 aura_env.dragon_isles_jewelcrafting = {
     -- weekly
     {name = "Treatise", quests = {74112}},
-    {name = "Profession Trainer Quest", quests = {70563, 70565}, coords = "Valdrakken 40.81 61.12"},
-    {name = "Consortium Trade Quest", quests = {66516, 66950}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Profession Trainer Quest", quests = {70563, 70565, 70564}, coords = "Valdrakken 40.81 61.12"},
+    {name = "Consortium Trade Quest", quests = {66516, 66950, 72428}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70593}, coords = "Valdrakken 35.37 58.79"},
 
     -- one-time
@@ -225,8 +225,8 @@ aura_env.dragon_isles_jewelcrafting = {
 aura_env.dragon_isles_leatherworking = {
     -- weekly
     {name = "Treatise", quests = {74113}},
-    {name = "Profession Trainer Quest", quests = {70571, 70567}, coords = "Valdrakken 28.56 61.33"},
-    {name = "Consortium Trade Quest", quests = {66364}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Profession Trainer Quest", quests = {70571, 70567, 70569}, coords = "Valdrakken 28.56 61.33"},
+    {name = "Consortium Trade Quest", quests = {66364, 66363}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70594}, coords = "Valdrakken 35.37 58.79"},
 
     -- one-time
