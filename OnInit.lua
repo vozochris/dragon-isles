@@ -243,7 +243,7 @@ aura_env.dragon_isles_leatherworking = {
 aura_env.dragon_isles_mining = {
     -- weekly
     {name = "Treatise", quests = {74106}},
-    {name = "Profession Trainer Quest", quests = {70168, 72157}, coords = "Valdrakken 38.87 51.45"},
+    {name = "Profession Trainer Quest", quests = {70168, 72157, 70617}, coords = "Valdrakken 38.87 51.45"},
 
     -- one-time
     {name = "Profession Master", quests = {70258}, coords = "Thaldraszus 61.43 76.87"},
