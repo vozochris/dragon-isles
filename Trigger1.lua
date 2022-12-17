@@ -28,10 +28,6 @@ function(states, event, ...)
         index = aura_env.add_lines(states, aura_env.dragon_isles_obsidian_citadel, "Obsidian Citadel", index)
     end
     
-    if not aura_env.config["hide_war_mode"] then
-        index = aura_env.add_lines(states, aura_env.dragon_isles_war_mode, "War Mode", index)
-    end
-    
     if not aura_env.config["hide_rares"] then
         local show_all_zones = aura_env.config["show_all_zones"]
         local player_zone = C_Map.GetBestMapForUnit("player")
@@ -49,9 +45,20 @@ function(states, event, ...)
             index = aura_env.add_lines(states, aura_env.dragon_isles_thaldraszus, "Thaldraszus", index, true)
         end
     end
+
+    if not aura_env.config["hide_primal_cores"] then
+        index = aura_env.add_lines(states, aura_env.dragon_isles_primal_cores, "Primal Cores", index)
+    end
     
     if not aura_env.config["hide_elementals"] then
-        index = aura_env.add_lines(states, aura_env.dragon_isles_elementals, "Elementals", index)
+        index = aura_env.add_lines(states, aura_env.dragon_isles_fire_elementals, "Fire Elementals", index)
+        index = aura_env.add_lines(states, aura_env.dragon_isles_water_elementals, "Water Elementals", index)
+        index = aura_env.add_lines(states, aura_env.dragon_isles_earth_elementals, "Earth Elementals", index)
+        index = aura_env.add_lines(states, aura_env.dragon_isles_air_elementals, "Air Elementals", index)
+    end
+    
+    if not aura_env.config["hide_war_mode"] then
+        index = aura_env.add_lines(states, aura_env.dragon_isles_war_mode, "War Mode", index)
     end
     
     if not aura_env.config["hide_quests"] then

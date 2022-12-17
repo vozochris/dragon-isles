@@ -118,27 +118,41 @@ aura_env.dragon_isles_thaldraszus = {
     {name = "Woolfang", quests = {69850}, info = "agi dagger, leather chest", coords = "47.8 49.8"},
 }
 
-aura_env.dragon_isles_elementals = {
-    --Fire
-    {name = "Emblazion", quests = {69955}, info = "Fire"},
-    {name = "Infernum", quests = {69954}, info = "Fire"},
-    {name = "Kain Firebrand", quests = {69970}, info = "Fire"},
-    {name = "Neela Firebane", quests = {74016}, info = "Fire"},
-    --Water
-    {name = "Crystalus", quests = {73989}, info = "Water"},
-    {name = "Frozion", quests = {69961}, info = "Water"},
-    {name = "Rouen Icewind", quests = {74027}, info = "Water"},
-    {name = "The Iceblades", quests = {69971}, info = "Water"},
-    --Earth
-    {name = "Bouldron", quests = {69951}, info = "Earth"},
-    {name = "Gravlion", quests = {73998}, info = "Earth"},
-    {name = "Grizzlerock", quests = {69956}, info = "Earth"},
-    {name = "Zurgaz Corebreaker", quests = {69972}, info = "Earth"},
-    --Air
-    {name = "Gaelzion", quests = {73995}, info = "Air"},
-    {name = "Karantun", quests = {69953}, info = "Air"},
-    {name = "Pipspark Thundersnap", quests = {69974}, info = "Air"},
-    {name = "Voraazka", quests = {74038}, info = "Air"},
+-- Elemental Storms
+
+aura_env.dragon_isles_primal_cores = {
+    {name = "Extinguishing the Fire Primalists", quests = {70754}},
+    {name = "Vaporizing the Water Primalists", quests = {70752}},
+    {name = "Shattering the Earth Primalists", quests = {70723}},
+    {name = "Dissipating the Air Primalists", quests = {70753}},
+}
+
+aura_env.dragon_isles_fire_elementals = {
+    {name = "Emblazion", quests = {69955}},--Might be wrong id
+    {name = "Infernum", quests = {69954}},--Might be wrong id
+    {name = "Kain Firebrand", quests = {69970}},--Might be wrong id
+    {name = "Neela Firebane", quests = {74016}},
+}
+
+aura_env.dragon_isles_water_elementals = {
+    {name = "Crystalus", quests = {73989}},
+    {name = "Frozion", quests = {73993}},
+    {name = "Rouen Icewind", quests = {74027}},
+    {name = "Iceblade Trio", quests = {74009}},
+}
+
+aura_env.dragon_isles_earth_elementals = {
+    {name = "Bouldron", quests = {69951}},--Might be wrong id
+    {name = "Gravlion", quests = {73998}},
+    {name = "Grizzlerock", quests = {69956}},--Might be wrong id
+    {name = "Zurgaz Corebreaker", quests = {69972}},--Might be wrong id
+}
+
+aura_env.dragon_isles_air_elementals = {
+    {name = "Gaelzion", quests = {73995}},
+    {name = "Karantun", quests = {74007}},
+    {name = "Pipspark Thundersnap", quests = {69974}},--Might be wrong id
+    {name = "Voraazka", quests = {74038}},
 }
 
 aura_env.dragon_isles_quests = {
