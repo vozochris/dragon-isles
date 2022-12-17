@@ -50,6 +50,10 @@ function(states, event, ...)
         end
     end
     
+    if not aura_env.config["hide_elementals"] then
+        index = aura_env.add_lines(states, aura_env.dragon_isles_elementals, "Elementals", index)
+    end
+    
     if not aura_env.config["hide_quests"] then
         index = aura_env.add_lines(states, aura_env.dragon_isles_quests, "Quests", index)
     end

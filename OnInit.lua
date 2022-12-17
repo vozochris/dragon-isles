@@ -118,6 +118,29 @@ aura_env.dragon_isles_thaldraszus = {
     {name = "Woolfang", quests = {69850}, info = "agi dagger, leather chest", coords = "47.8 49.8"},
 }
 
+aura_env.dragon_isles_elementals = {
+    --Fire
+    {name = "Emblazion", quests = {69955}, info = "Fire"},
+    {name = "Infernum", quests = {69954}, info = "Fire"},
+    {name = "Kain Firebrand", quests = {69970}, info = "Fire"},
+    {name = "Neela Firebane", quests = {74016}, info = "Fire"},
+    --Water
+    {name = "Crystalus", quests = {73989}, info = "Water"},
+    {name = "Frozion", quests = {69961}, info = "Water"},
+    {name = "Rouen Icewind", quests = {74027}, info = "Water"},
+    {name = "The Iceblades", quests = {69971}, info = "Water"},
+    --Earth
+    {name = "Bouldron", quests = {69951}, info = "Earth"},
+    {name = "Gravlion", quests = {73998}, info = "Earth"},
+    {name = "Grizzlerock", quests = {69956}, info = "Earth"},
+    {name = "Zurgaz Corebreaker", quests = {69972}, info = "Earth"},
+    --Air
+    {name = "Gaelzion", quests = {73995}, info = "Air"},
+    {name = "Karantun", quests = {69953}, info = "Air"},
+    {name = "Pipspark Thundersnap", quests = {69974}, info = "Air"},
+    {name = "Voraazka", quests = {74038}, info = "Air"},
+}
+
 aura_env.dragon_isles_quests = {
     {name = "Tarjin's Tales", quests = {70779}, coords = "The Waking Shores 16.0 62.6"},
 }
