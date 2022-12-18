@@ -128,9 +128,9 @@ aura_env.dragon_isles_primal_cores = {
 }
 
 aura_env.dragon_isles_fire_elementals = {
-    {name = "Emblazion", quests = {69955}},--Might be wrong id
-    {name = "Infernum", quests = {69954}},--Might be wrong id
-    {name = "Kain Firebrand", quests = {69970}},--Might be wrong id
+    {name = "Emblazion", quests = {73991}},
+    {name = "Infernum", quests = {74005}},
+    {name = "Kain Firebrand", quests = {74006}},
     {name = "Neela Firebane", quests = {74016}},
 }
 
@@ -142,16 +142,16 @@ aura_env.dragon_isles_water_elementals = {
 }
 
 aura_env.dragon_isles_earth_elementals = {
-    {name = "Bouldron", quests = {69951}},--Might be wrong id
+    {name = "Bouldron", quests = {73986}},
     {name = "Gravlion", quests = {73998}},
-    {name = "Grizzlerock", quests = {69956}},--Might be wrong id
-    {name = "Zurgaz Corebreaker", quests = {69972}},--Might be wrong id
+    {name = "Grizzlerock", quests = {73999}},
+    {name = "Zurgaz Corebreaker", quests = {74039}},
 }
 
 aura_env.dragon_isles_air_elementals = {
     {name = "Gaelzion", quests = {73995}},
     {name = "Karantun", quests = {74007}},
-    {name = "Pipspark Thundersnap", quests = {69974}},--Might be wrong id
+    {name = "Pipspark Thundersnap", quests = {74022}},
     {name = "Voraazka", quests = {74038}},
 }
 
