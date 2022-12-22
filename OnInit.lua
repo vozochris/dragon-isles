@@ -5,13 +5,13 @@ aura_env.dragon_isles_general = {
     {name = "Siege on Dragonbane Keep", quests = {70866}},
     {name = "Grand Hunt", quests = {70906}},
     {name = "Community Feast", quests = {70893}},
-    {name = "World Boss", quests = {72056}},
+    {name = "World Boss", quests = {72056, 72055}},
 }
 
 aura_env.dragon_isles_obsidian_citadel = {
     {name = "Allegiance to One", quests = {66419}},
     {name = "Disarming Behaviour", quests = {65842}},
-    {name = "Shaking our Foundation", quests = {69918}},
+    {name = "Talonstalker Kavia Quest", quests = {69918, 66633}},
     {name = "Exadria Quest", quests = {67099, 66445}},
     {name = "Exadria/Voraxian Quest", quests = {66449, 67142}},
     {name = "Stoker Volrax Quest", quests = {66308, 66326}},
@@ -164,8 +164,8 @@ aura_env.dragon_isles_quests = {
 aura_env.dragon_isles_alchemy = {
     -- weekly
     {name = "Treatise", quests = {74108}},
-    {name = "Profession Trainer Quest", quests = {70531, 70533, 70532}, coords = "Valdrakken 36.41 71.69"},
-    {name = "Consortium Trade Quest", quests = {66940, 72427}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Profession Trainer Quest", quests = {70531, 70533, 70532, 70530}, coords = "Valdrakken 36.41 71.69"},
+    {name = "Consortium Trade Quest", quests = {66940, 72427, 66937}, coords = "Valdrakken 36.84 62.95"},
 
     -- one-time
     {name = "Profession Master", quests = {70247}, coords = "The Waking Shores 60.92 75.84"},
@@ -192,7 +192,7 @@ aura_env.dragon_isles_blacksmithing = {
 aura_env.dragon_isles_enchanting = {
     -- weekly
     {name = "Treatise", quests = {74110}},
-    {name = "Profession Trainer Quest", quests = {72172, 72175}, coords = "Valdrakken 31.05 61.38"},
+    {name = "Profession Trainer Quest", quests = {72172, 72175, 72173}, coords = "Valdrakken 31.05 61.38"},
     {name = "Consortium Trade Quest", quests = {66884, 72423}, coords = "Valdrakken 36.84 62.95"},
 
     -- one-time
@@ -211,7 +211,7 @@ aura_env.dragon_isles_engineering = {
     -- weekly
     {name = "Treatise", quests = {74111}},
     {name = "Profession Trainer Quest", quests = {70540, 70557}, coords = "Valdrakken 42.25 48.62"},
-    {name = "Consortium Trade Quest", quests = {66891, 66890}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Consortium Trade Quest", quests = {66891, 66890, 66942}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70591}, coords = "Valdrakken 35.37 58.79"},
 
     -- one-time
@@ -232,7 +232,7 @@ aura_env.dragon_isles_herbalism = {
 aura_env.dragon_isles_inscription = {
     -- weekly
     {name = "Treatise", quests = {74105}},
-    {name = "Profession Trainer Quest", quests = {70558, 70559}, coords = "Valdrakken 38.83 73.33"},
+    {name = "Profession Trainer Quest", quests = {70558, 70559, 70561}, coords = "Valdrakken 38.83 73.33"},
     {name = "Consortium Trade Quest", quests = {66943, 66944}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70592}, coords = "Valdrakken 35.37 58.79"},
 
@@ -263,7 +263,7 @@ aura_env.dragon_isles_leatherworking = {
     -- weekly
     {name = "Treatise", quests = {74113}},
     {name = "Profession Trainer Quest", quests = {70571, 70567, 70569}, coords = "Valdrakken 28.56 61.33"},
-    {name = "Consortium Trade Quest", quests = {66364, 66363}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Consortium Trade Quest", quests = {66364, 66363, 72407}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70594}, coords = "Valdrakken 35.37 58.79"},
 
     -- one-time
