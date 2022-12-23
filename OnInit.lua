@@ -303,6 +303,15 @@ aura_env.dragon_isles_tailoring = {
     {name = "Work Orders Quest", quests = {70595}, coords = "Valdrakken 35.37 58.79"},
 }
 
+aura_env.dragon_isles_iskaara_fish = {
+    {name = "Scalebelly Mackeral", quests = {72828}},
+    {name = "Thousandbite Pirahna", quests = {72827}},
+    {name = "Aileron Seamoth", quests = {72826}},
+    {name = "Cerulean Spinefish", quests = {72825}},
+    {name = "Temporal Dragonhead", quests = {72824}},
+    {name = "Islefin Dorado", quests = {72823}},
+}
+
 aura_env.quest_completed = function(quest)
     return C_QuestLog.IsQuestFlaggedCompleted(quest)
 end
