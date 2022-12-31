@@ -5,7 +5,7 @@ aura_env.dragon_isles_general = {
     {name = "Siege on Dragonbane Keep", quests = {70866}},
     {name = "Grand Hunt", quests = {70906}},
     {name = "Community Feast", quests = {70893}},
-    {name = "World Boss", quests = {72056, 72055}},
+    {name = "World Boss", quests = {72056, 72055, 72054}},
 }
 
 aura_env.dragon_isles_obsidian_citadel = {
@@ -165,7 +165,7 @@ aura_env.dragon_isles_alchemy = {
     -- weekly
     {name = "Treatise", quests = {74108}},
     {name = "Profession Trainer Quest", quests = {70531, 70533, 70532, 70530}, coords = "Valdrakken 36.41 71.69"},
-    {name = "Consortium Trade Quest", quests = {66940, 72427, 66937}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Consortium Trade Quest", quests = {66940, 72427, 66937, 66938}, coords = "Valdrakken 36.84 62.95"},
 
     -- one-time
     {name = "Profession Master", quests = {70247}, coords = "The Waking Shores 60.92 75.84"},
@@ -210,8 +210,8 @@ aura_env.dragon_isles_enchanting = {
 aura_env.dragon_isles_engineering = {
     -- weekly
     {name = "Treatise", quests = {74111}},
-    {name = "Profession Trainer Quest", quests = {70540, 70557}, coords = "Valdrakken 42.25 48.62"},
-    {name = "Consortium Trade Quest", quests = {66891, 66890, 66942}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Profession Trainer Quest", quests = {70540, 70557, 70545}, coords = "Valdrakken 42.25 48.62"},
+    {name = "Consortium Trade Quest", quests = {66891, 66890, 66942, 72396}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70591}, coords = "Valdrakken 35.37 58.79"},
 
     -- one-time
@@ -263,7 +263,7 @@ aura_env.dragon_isles_leatherworking = {
     -- weekly
     {name = "Treatise", quests = {74113}},
     {name = "Profession Trainer Quest", quests = {70571, 70567, 70569}, coords = "Valdrakken 28.56 61.33"},
-    {name = "Consortium Trade Quest", quests = {66364, 66363, 72407}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Consortium Trade Quest", quests = {66364, 66363, 72407, 66951}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70594}, coords = "Valdrakken 35.37 58.79"},
 
     -- one-time
@@ -298,13 +298,13 @@ aura_env.dragon_isles_skinning = {
 aura_env.dragon_isles_tailoring = {
     -- weekly
     {name = "Treatise", quests = {74115}},
-    {name = "Profession Trainer Quest", quests = {70582, 70586}, coords = "Valdrakken 31.91 67.18"},
+    {name = "Profession Trainer Quest", quests = {70582, 70586, 70572}, coords = "Valdrakken 31.91 67.18"},
     {name = "Consortium Trade Quest", quests = {72410}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70595}, coords = "Valdrakken 35.37 58.79"},
 }
 
 aura_env.dragon_isles_iskaara_fish = {
-    {name = "Scalebelly Mackeral", quests = {72828}},
+    {name = "Scalebelly Mackerel", quests = {72828}},
     {name = "Thousandbite Pirahna", quests = {72827}},
     {name = "Aileron Seamoth", quests = {72826}},
     {name = "Cerulean Spinefish", quests = {72825}},
