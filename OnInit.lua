@@ -166,6 +166,11 @@ aura_env.dragon_isles_alchemy = {
     {name = "Treatise", quests = {74108}},
     {name = "Profession Trainer Quest", quests = {70531, 70533, 70532, 70530}, coords = "Valdrakken 36.41 71.69"},
     {name = "Consortium Trade Quest", quests = {66940, 72427, 66937, 66938}, coords = "Valdrakken 36.84 62.95"},
+    -- items
+    {name = "Experimental Substance", quests = {66373}, info = "Expedition Scout's Pack or Disturbed Dirt"},
+    {name = "Reawakened Catalyst", quests = {66374}, info = "Expedition Scout's Pack or Disturbed Dirt"},
+    {name = "Elementious Splinter", quests = {70511}, info = "Elemental enemies"},
+    {name = "Decaying Phlegm", quests = {70504}, info = "Decay enemies"},
 
     -- one-time
     {name = "Profession Master", quests = {70247}, coords = "The Waking Shores 60.92 75.84"},
@@ -184,6 +189,12 @@ aura_env.dragon_isles_blacksmithing = {
     {name = "Profession Trainer Quest", quests = {70233, 70235}, coords = "Valdrakken 36.97 47.10"},
     {name = "Consortium Trade Quest", quests = {66517, 66897}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70589}, coords = "Valdrakken 35.37 58.79"},
+
+    -- items
+    {name = "Valdrakken Weapon Chain", quests = {66381}, info = "Expedition Scout's Pack or Disturbed Dirt"},
+    {name = "Draconium Blade Sharpener", quests = {66382}, info = "Expedition Scout's Pack or Disturbed Dirt"},
+    {name = "Primeval Earth Fragment", quests = {70512}, info = "Earth enemies"},
+    {name = "Molten Globule", quests = {70513}, info = "Fire enemies"},
 
     -- one-time
     {name = "Profession Master", quests = {70250}, coords = "The Waking Shores 43.30 66.65"},
@@ -214,6 +225,12 @@ aura_env.dragon_isles_engineering = {
     {name = "Consortium Trade Quest", quests = {66891, 66890, 66942, 72396}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70591}, coords = "Valdrakken 35.37 58.79"},
 
+    -- items
+    {name = "Eroded Titan Gizmo", quests = {66379}, info = "Expedition Scout's Pack or Disturbed Dirt"},
+    {name = "Watcher Power Core", quests = {66380}, info = "Expedition Scout's Pack or Disturbed Dirt"},
+    {name = "Keeper's Mark", quests = {70516}, info = "Titan/Tyrhold enemies"},
+    {name = "Infinitely Attachable Pair o' Docks", quests = {70517}, info = "Dragonkin enemies"},
+
     -- one-time
     {name = "Profession Master", quests = {70252}, coords = "The Azure Span:Dragon Isles 17.8 21.7"},
     {name = "Boomthyr Rocket", quests = {70270}, coords = "The Waking Shores 56.0 44.9"},
@@ -224,6 +241,9 @@ aura_env.dragon_isles_herbalism = {
     -- weekly
     {name = "Treatise", quests = {74107}},
     {name = "Profession Trainer Quest", quests = {70613, 70616}, coords = "Valdrakken 37.72 67.95"},
+
+    -- items
+    {name = "Dreambloom", quests = {71857, 71858, 71859, 71860, 71861, 71864}},
 
     -- one-time
     {name = "Profession Master", quests = {70253}, coords = "Ohn'Ahran Plains 58.38 50.01"},
@@ -247,6 +267,12 @@ aura_env.dragon_isles_jewelcrafting = {
     {name = "Consortium Trade Quest", quests = {66516, 66950, 72428}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70593}, coords = "Valdrakken 35.37 58.79"},
 
+    -- items
+    {name = "Ancient Gem Fragments", quests = {66388}, info = "Expedition Scout's Pack or Disturbed Dirt"},
+    {name = "Chipped Tyrstone", quests = {66389}, info = "Expedition Scout's Pack or Disturbed Dirt"},
+    {name = "Incandescent Curio", quests = {70520}, info = "Elementals"},
+    {name = "Elegantly Engraved Embellishment", quests = {70521}, info = "Nokhud / Sundered Flame"},
+
     -- one-time
     {name = "Profession Master", quests = {70255}, coords = "The Azure Span:Dragon Isles 46.23 40.84"},
     {name = "Closely Guarded Shiny", quests = {70292}, coords = "The Waking Shores 50.4 45.1"},
@@ -266,6 +292,12 @@ aura_env.dragon_isles_leatherworking = {
     {name = "Consortium Trade Quest", quests = {66364, 66363, 72407, 66951}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70594}, coords = "Valdrakken 35.37 58.79"},
 
+    -- items
+    {name = "Molted Dragon Scales", quests = {66384}, info = "Expedition Scout's Pack or Disturbed Dirt"},
+    {name = "Preserved Animal Parts", quests = {66385}, info = "Expedition Scout's Pack or Disturbed Dirt"},
+    {name = "Ossified Hide", quests = {70522}, info = "Drakes"},
+    {name = "Exceedingly Soft Skin", quests = {70523}, info = "Slyvern / Vorquin"},
+
     -- one-time
     {name = "Profession Master", quests = {70256}, coords = "Ohn'Ahran Plains 82.45 50.67"},
     {name = "Poacher's Pack", quests = {70308}, coords = "The Waking Shores 39 86"},
@@ -282,6 +314,9 @@ aura_env.dragon_isles_mining = {
     {name = "Treatise", quests = {74106}},
     {name = "Profession Trainer Quest", quests = {70618, 72157, 70617}, coords = "Valdrakken 38.87 51.45"},
 
+    -- items
+    {name = "Iridescent Ore", quests = {72160, 72161, 72162, 72163, 72164, 72165}},
+
     -- one-time
     {name = "Profession Master", quests = {70258}, coords = "Thaldraszus 61.43 76.87"},
 }
@@ -290,6 +325,10 @@ aura_env.dragon_isles_skinning = {
     -- weekly
     {name = "Treatise", quests = {74114}},
     {name = "Profession Trainer Quest", quests = {72159, 70620}, coords = "Valdrakken 28.56 60.41"},
+
+    -- items
+    {name = "Curious Hide Scrap", quests = {70381, 70383, 70384, 70385, 70386}},
+    {name = "Large Sample of Curious Hide", quests = {70389}},
 
     -- one-time
     {name = "Profession Master", quests = {70259}, coords = "The Waking Shores 73.28 69.72"},
@@ -301,9 +340,23 @@ aura_env.dragon_isles_tailoring = {
     {name = "Profession Trainer Quest", quests = {70582, 70586, 70572}, coords = "Valdrakken 31.91 67.18"},
     {name = "Consortium Trade Quest", quests = {72410}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70595}, coords = "Valdrakken 35.37 58.79"},
+
+    -- items
+    {name = "Umbral Bone Needle", quests = {66386}, info = "Expedition Scout's Pack or Disturbed Dirt"},
+    {name = "Primvalweave Spindle", quests = {66387}, info = "Expedition Scout's Pack or Disturbed Dirt"},
+    {name = "Ohn'arhan Weave", quests = {70524}, info = "Nokhud enemies"},
+    {name = "Stupidly Effective Stitchery", quests = {70525}, info = "Gnoll enemies"},
+}
+
+aura_env.dragon_isles_aylaag_camp = {
+    {name = "Aylaag Camp Quests", quests = {65784, 65789, 65792, 65796, 66711, 65798, 67605, 70210, 70701, 67034, 67039, 70279, 70990}, completed_on = 4},
 }
 
 aura_env.dragon_isles_iskaara_fish = {
+    {name = "Fishing Holes unlock", quests = {70793}},
+    {name = "River Mouth Fishing Hole", quests = {70438, 70450}, required_quests = {70793}},
+
+    -- fish
     {name = "Scalebelly Mackerel", quests = {72828}},
     {name = "Thousandbite Pirahna", quests = {72827}},
     {name = "Aileron Seamoth", quests = {72826}},
@@ -327,6 +380,7 @@ aura_env.add_lines = function(states, entries, separator, starting_index, is_NPC
         local has_vignette = false
         local requirement = true
         local filtered = false
+        local completed_on = entry.completed_on or 1
         
         for _, filter in ipairs(aura_env.config["filter"]) do
             if (entry.name == filter.name) then
@@ -346,13 +400,13 @@ aura_env.add_lines = function(states, entries, separator, starting_index, is_NPC
         if not filtered and requirement then
             for _, quest in ipairs(entry.quests) do
                 quests_count = quests_count + 1
-                if not aura_env.quest_completed(quest) then
+                if aura_env.quest_completed(quest) then
                     c = c + 1
                 end
             end
         end
         
-        if c > 0 and c == quests_count then
+        if quests_count > 0 and c < completed_on then
             for _, vignette in pairs(aura_env.vignettes) do
                 if entry.name == vignette.name then
                     has_vignette = true
@@ -376,6 +430,10 @@ aura_env.add_lines = function(states, entries, separator, starting_index, is_NPC
             end
             
             if show then
+                if entry.completed_on then
+                    append = append .. ":" .. (completed_on - c)
+                end
+
                 if entry.coords and aura_env.config["show_coords"] then
                     append = append .. WrapTextInColorCode(" (" .. entry.coords .. ")", "FFDDDDDD")
                 end
@@ -397,7 +455,7 @@ aura_env.add_lines = function(states, entries, separator, starting_index, is_NPC
                     name = entry.name,
                     prepend = prepend,
                     append = append,
-                    completed = c < quests_count,
+                    completed = c >= completed_on,
                     has_vignette = has_vignette,
                     index = index
                 }

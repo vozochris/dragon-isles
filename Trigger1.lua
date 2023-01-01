@@ -98,6 +98,10 @@ function(states, event, ...)
         add_profession("Tailoring", aura_env.dragon_isles_tailoring)
     end
 
+    if not aura_env.config["hide_aylaag_camp"] then
+        index = aura_env.add_lines(states, aura_env.dragon_isles_aylaag_camp, "Aylaag Camp", index)
+    end
+
     if not aura_env.config["hide_iskaara_fish"] then
         index = aura_env.add_lines(states, aura_env.dragon_isles_iskaara_fish, "Iskaara Fish", index)
     end
