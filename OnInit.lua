@@ -12,7 +12,7 @@ aura_env.dragon_isles_obsidian_citadel = {--69926
     {name = "Allegiance to One", quests = {66419}},
     {name = "Disarming Behaviour", quests = {65842}},
     {name = "Talonstalker Kavia Quest", quests = {69918, 66633}},
-    {name = "Exadria Quest", quests = {67099, 66445}},
+    {name = "Exadria Quest", quests = {67099, 66445, 66321}},
     {name = "Exadria/Voraxian Quest", quests = {66449, 67142}},
     {name = "Stoker Volrax Quest", quests = {66308, 66326}},
     --Wrathion
