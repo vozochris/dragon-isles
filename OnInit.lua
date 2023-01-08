@@ -8,7 +8,7 @@ aura_env.dragon_isles_general = {
     {name = "World Boss", quests = {72056, 72055, 72054}},
 }
 
-aura_env.dragon_isles_obsidian_citadel = {
+aura_env.dragon_isles_obsidian_citadel = {--69926
     {name = "Allegiance to One", quests = {66419}},
     {name = "Disarming Behaviour", quests = {65842}},
     {name = "Talonstalker Kavia Quest", quests = {69918, 66633}},
@@ -173,6 +173,7 @@ aura_env.dragon_isles_alchemy = {
     {name = "Decaying Phlegm", quests = {70504}, info = "Decay enemies"},
 
     -- one-time
+    {name = "Scribblings", quests = {71893}},
     {name = "Profession Master", quests = {70247}, coords = "The Waking Shores 60.92 75.84"},
     {name = "Frostforged Potion", quests = {70274}, coords = "The Waking Shores 55.0 81.0"},
     {name = "Well Insulated Mug", quests = {70289}, coords = "The Waking Shores 25.1 73.3"},
@@ -187,7 +188,7 @@ aura_env.dragon_isles_blacksmithing = {
     -- weekly
     {name = "Treatise", quests = {74109}},
     {name = "Profession Trainer Quest", quests = {70233, 70235}, coords = "Valdrakken 36.97 47.10"},
-    {name = "Consortium Trade Quest", quests = {66517, 66897}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Consortium Trade Quest", quests = {66517, 66897, 66941}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70589}, coords = "Valdrakken 35.37 58.79"},
 
     -- items
@@ -204,7 +205,7 @@ aura_env.dragon_isles_enchanting = {
     -- weekly
     {name = "Treatise", quests = {74110}},
     {name = "Profession Trainer Quest", quests = {72172, 72175, 72173}, coords = "Valdrakken 31.05 61.38"},
-    {name = "Consortium Trade Quest", quests = {66884, 72423}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Consortium Trade Quest", quests = {66884, 72423, 66935}, coords = "Valdrakken 36.84 62.95"},
 
     -- one-time
     {name = "Profession Master", quests = {70251}, coords = "Ohn'Ahran Plains 62.42 18.70"},
@@ -232,6 +233,7 @@ aura_env.dragon_isles_engineering = {
     {name = "Infinitely Attachable Pair o' Docks", quests = {70517}, info = "Dragonkin enemies"},
 
     -- one-time
+    {name = "Scribblings", quests = {71896}},
     {name = "Profession Master", quests = {70252}, coords = "The Azure Span:Dragon Isles 17.8 21.7"},
     {name = "Boomthyr Rocket", quests = {70270}, coords = "The Waking Shores 56.0 44.9"},
     {name = "Intact Coil Capacitor", quests = {70275}, coords = "The Waking Shores 49.09 77.54"},
@@ -240,7 +242,7 @@ aura_env.dragon_isles_engineering = {
 aura_env.dragon_isles_herbalism = {
     -- weekly
     {name = "Treatise", quests = {74107}},
-    {name = "Profession Trainer Quest", quests = {70613, 70616}, coords = "Valdrakken 37.72 67.95"},
+    {name = "Profession Trainer Quest", quests = {70613, 70616, 70614}, coords = "Valdrakken 37.72 67.95"},
 
     -- items
     {name = "Dreambloom", quests = {71857, 71858, 71859, 71860, 71861, 71864}},
@@ -324,7 +326,7 @@ aura_env.dragon_isles_mining = {
 aura_env.dragon_isles_skinning = {
     -- weekly
     {name = "Treatise", quests = {74114}},
-    {name = "Profession Trainer Quest", quests = {72159, 70620}, coords = "Valdrakken 28.56 60.41"},
+    {name = "Profession Trainer Quest", quests = {72159, 70620, 70619}, coords = "Valdrakken 28.56 60.41"},
 
     -- items
     {name = "Curious Hide Scrap", quests = {70381, 70383, 70384, 70385, 70386}},
@@ -349,7 +351,7 @@ aura_env.dragon_isles_tailoring = {
 }
 
 aura_env.dragon_isles_aylaag_camp = {
-    {name = "Aylaag Camp Quests", quests = {65784, 65789, 65792, 65796, 66711, 65798, 67605, 70210, 70701, 67034, 67039, 70279, 70990}, completed_on = 4},
+    {name = "Aylaag Camp Quests", quests = {65784, 65789, 65792, 65796, 66711, 65798, 67605, 70210, 70701, 67034, 67039, 70279, 70990, 66698, 70299}, completed_on = 4},
 }
 
 aura_env.dragon_isles_iskaara_fish = {
