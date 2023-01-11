@@ -245,7 +245,7 @@ aura_env.dragon_isles_herbalism = {
     {name = "Profession Trainer Quest", quests = {70613, 70616, 70614}, coords = "Valdrakken 37.72 67.95"},
 
     -- items
-    {name = "Dreambloom", quests = {71857, 71858, 71859, 71860, 71861, 71864}},
+    {name = "Dreambloom", quests = {71857, 71858, 71859, 71860, 71861, 71864}, completed_on = 6},
 
     -- one-time
     {name = "Profession Master", quests = {70253}, coords = "Ohn'Ahran Plains 58.38 50.01"},
@@ -255,7 +255,7 @@ aura_env.dragon_isles_inscription = {
     -- weekly
     {name = "Treatise", quests = {74105}},
     {name = "Profession Trainer Quest", quests = {70558, 70559, 70561}, coords = "Valdrakken 38.83 73.33"},
-    {name = "Consortium Trade Quest", quests = {66943, 66944}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Consortium Trade Quest", quests = {66943, 66944, 72438}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70592}, coords = "Valdrakken 35.37 58.79"},
 
     -- one-time
@@ -265,7 +265,7 @@ aura_env.dragon_isles_inscription = {
 aura_env.dragon_isles_jewelcrafting = {
     -- weekly
     {name = "Treatise", quests = {74112}},
-    {name = "Profession Trainer Quest", quests = {70563, 70565, 70564}, coords = "Valdrakken 40.81 61.12"},
+    {name = "Profession Trainer Quest", quests = {70563, 70565, 70564, 70562}, coords = "Valdrakken 40.81 61.12"},
     {name = "Consortium Trade Quest", quests = {66516, 66950, 72428}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70593}, coords = "Valdrakken 35.37 58.79"},
 
@@ -290,7 +290,7 @@ aura_env.dragon_isles_jewelcrafting = {
 aura_env.dragon_isles_leatherworking = {
     -- weekly
     {name = "Treatise", quests = {74113}},
-    {name = "Profession Trainer Quest", quests = {70571, 70567, 70569}, coords = "Valdrakken 28.56 61.33"},
+    {name = "Profession Trainer Quest", quests = {70571, 70567, 70569, 70568}, coords = "Valdrakken 28.56 61.33"},
     {name = "Consortium Trade Quest", quests = {66364, 66363, 72407, 66951}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70594}, coords = "Valdrakken 35.37 58.79"},
 
@@ -317,7 +317,7 @@ aura_env.dragon_isles_mining = {
     {name = "Profession Trainer Quest", quests = {70618, 72157, 70617}, coords = "Valdrakken 38.87 51.45"},
 
     -- items
-    {name = "Iridescent Ore", quests = {72160, 72161, 72162, 72163, 72164, 72165}},
+    {name = "Iridescent Ore", quests = {72160, 72161, 72162, 72163, 72164, 72165}, completed_on = 6},
 
     -- one-time
     {name = "Profession Master", quests = {70258}, coords = "Thaldraszus 61.43 76.87"},
