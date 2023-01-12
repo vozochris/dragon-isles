@@ -166,6 +166,7 @@ aura_env.dragon_isles_alchemy = {
     {name = "Treatise", quests = {74108}},
     {name = "Profession Trainer Quest", quests = {70531, 70533, 70532, 70530}, coords = "Valdrakken 36.41 71.69"},
     {name = "Consortium Trade Quest", quests = {66940, 72427, 66937, 66938}, coords = "Valdrakken 36.84 62.95"},
+
     -- items
     {name = "Experimental Substance", quests = {66373}, info = "Expedition Scout's Pack or Disturbed Dirt"},
     {name = "Reawakened Catalyst", quests = {66374}, info = "Expedition Scout's Pack or Disturbed Dirt"},
@@ -174,6 +175,7 @@ aura_env.dragon_isles_alchemy = {
 
     -- one-time
     {name = "Scribblings", quests = {71893}},
+    -- {name = "Rare Scribblings", quests = {71904}},
     {name = "Profession Master", quests = {70247}, coords = "The Waking Shores 60.92 75.84"},
     {name = "Frostforged Potion", quests = {70274}, coords = "The Waking Shores 55.0 81.0"},
     {name = "Well Insulated Mug", quests = {70289}, coords = "The Waking Shores 25.1 73.3"},
@@ -207,6 +209,12 @@ aura_env.dragon_isles_enchanting = {
     {name = "Profession Trainer Quest", quests = {72172, 72175, 72173}, coords = "Valdrakken 31.05 61.38"},
     {name = "Consortium Trade Quest", quests = {66884, 72423, 66935}, coords = "Valdrakken 36.84 62.95"},
 
+    -- items
+    {name = "Prismatic Focusing Shard", quests = {66377}, info = "Expedition Scout's Pack or Disturbed Dirt"},
+    {name = "Primal Dust", quests = {66378}, info = "Expedition Scout's Pack or Disturbed Dirt"},
+    {name = "Primalist Charm", quests = {70515}, info = "Humanoid Primalist enemies"},
+    {name = "Primordial Aether", quests = {70514}, info = "Arcane enemies"},
+
     -- one-time
     {name = "Profession Master", quests = {70251}, coords = "Ohn'Ahran Plains 62.42 18.70"},
     {name = "Flashfrozen Scroll", quests = {70320}, coords = "The Waking Shores 57.5 83.6"},
@@ -234,6 +242,7 @@ aura_env.dragon_isles_engineering = {
 
     -- one-time
     {name = "Scribblings", quests = {71896}},
+    -- {name = "Rare Scribblings", quests = {71907}},
     {name = "Profession Master", quests = {70252}, coords = "The Azure Span:Dragon Isles 17.8 21.7"},
     {name = "Boomthyr Rocket", quests = {70270}, coords = "The Waking Shores 56.0 44.9"},
     {name = "Intact Coil Capacitor", quests = {70275}, coords = "The Waking Shores 49.09 77.54"},
@@ -257,6 +266,12 @@ aura_env.dragon_isles_inscription = {
     {name = "Profession Trainer Quest", quests = {70558, 70559, 70561}, coords = "Valdrakken 38.83 73.33"},
     {name = "Consortium Trade Quest", quests = {66943, 66944, 72438}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70592}, coords = "Valdrakken 35.37 58.79"},
+
+    -- items
+    {name = "Phoenix Feather Quill", quests = {66375}, info = "Expedition Scout's Pack or Disturbed Dirt"},
+    {name = "Iskaaran Trading Ledger", quests = {66376}, info = "Expedition Scout's Pack or Disturbed Dirt"},
+    {name = "Curious Djaradin Rune", quests = {70518}, info = "Djaradin enemies"},
+    {name = "Draconic Glamour", quests = {70519}, info = "Dragonkin enemies"},
 
     -- one-time
     {name = "Profession Master", quests = {70254}, coords = "The Azure Span:Dragon Isles 40.15 64.34"},
