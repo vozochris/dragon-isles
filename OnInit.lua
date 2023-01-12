@@ -8,7 +8,7 @@ aura_env.dragon_isles_general = {
     {name = "World Boss", quests = {72056, 72055, 72054, 72057}},
 }
 
-aura_env.dragon_isles_obsidian_citadel = {--69926
+aura_env.dragon_isles_obsidian_citadel = {
     {name = "Allegiance to One", quests = {66419}},
     {name = "Disarming Behaviour", quests = {65842}},
     {name = "Talonstalker Kavia Quest", quests = {69918, 66633}},
@@ -351,7 +351,7 @@ aura_env.dragon_isles_tailoring = {
 }
 
 aura_env.dragon_isles_aylaag_camp = {
-    {name = "Aylaag Camp Quests", quests = {65784, 65789, 65792, 65796, 66711, 65798, 67605, 70210, 70701, 67034, 67039, 70279, 70990, 66698, 70299}, completed_on = 4},
+    {name = "Aylaag Camp Quests", quests = {65784, 65789, 65792, 65796, 66711, 65798, 67605, 70210, 70701, 67034, 67039, 70279, 70990, 66698, 70299, 70352}, completed_on = 4},
 }
 
 aura_env.dragon_isles_iskaara_fish = {
