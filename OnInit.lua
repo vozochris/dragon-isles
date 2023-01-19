@@ -10,10 +10,8 @@ aura_env.dragon_isles_general = {
 
 aura_env.dragon_isles_obsidian_citadel = {
     {name = "Allegiance to One", quests = {66419}},
-    {name = "Disarming Behaviour", quests = {65842}},
-    {name = "Talonstalker Kavia Quest", quests = {69918, 66633}},
-    {name = "Exadria Quest", quests = {67099, 66445, 66321}},
-    {name = "Exadria/Voraxian Quest", quests = {66449, 67142}},
+    {name = "Talonstalker Kavia Quests", quests = {69918, 66633, 65842, 66103}, completed_on = 2},
+    {name = "Exadria Quests", quests = {67099, 66445, 66321, 66449, 67142, 69984}, completed_on = 2},
     {name = "Stoker Volrax Quest", quests = {66308, 66326}},
     --Wrathion
     {name = "Keys of Loyalty", quests = {66133}, required_quests = {66802}},
@@ -230,7 +228,7 @@ aura_env.dragon_isles_enchanting = {
 aura_env.dragon_isles_engineering = {
     -- weekly
     {name = "Treatise", quests = {74111}},
-    {name = "Profession Trainer Quest", quests = {70540, 70557, 70545}, coords = "Valdrakken 42.25 48.62"},
+    {name = "Profession Trainer Quest", quests = {70540, 70557, 70545, 66942}, coords = "Valdrakken 42.25 48.62"},
     {name = "Consortium Trade Quest", quests = {66891, 66890, 66942, 72396}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70591}, coords = "Valdrakken 35.37 58.79"},
 
@@ -257,6 +255,7 @@ aura_env.dragon_isles_herbalism = {
     {name = "Dreambloom", quests = {71857, 71858, 71859, 71860, 71861, 71864}, completed_on = 6},
 
     -- one-time
+    {name = "Notes", quests = {71897}},
     {name = "Profession Master", quests = {70253}, coords = "Ohn'Ahran Plains 58.38 50.01"},
 }
 
@@ -335,6 +334,7 @@ aura_env.dragon_isles_mining = {
     {name = "Iridescent Ore", quests = {72160, 72161, 72162, 72163, 72164, 72165}, completed_on = 6},
 
     -- one-time
+    {name = "Notes", quests = {71901}},
     {name = "Profession Master", quests = {70258}, coords = "Thaldraszus 61.43 76.87"},
 }
 
@@ -448,7 +448,7 @@ aura_env.add_lines = function(states, entries, separator, starting_index, is_NPC
             
             if show then
                 if entry.completed_on then
-                    append = append .. ":" .. (completed_on - c)
+                    append = append .. ": " .. (completed_on - c)
                 end
 
                 if entry.coords and aura_env.config["show_coords"] then
