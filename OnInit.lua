@@ -187,7 +187,7 @@ aura_env.dragon_isles_alchemy = {
 aura_env.dragon_isles_blacksmithing = {
     -- weekly
     {name = "Treatise", quests = {74109}},
-    {name = "Profession Trainer Quest", quests = {70233, 70235}, coords = "Valdrakken 36.97 47.10"},
+    {name = "Profession Trainer Quest", quests = {70233, 70235, 70234}, coords = "Valdrakken 36.97 47.10"},
     {name = "Consortium Trade Quest", quests = {66517, 66897, 66941}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70589}, coords = "Valdrakken 35.37 58.79"},
 
@@ -205,7 +205,7 @@ aura_env.dragon_isles_enchanting = {
     -- weekly
     {name = "Treatise", quests = {74110}},
     {name = "Profession Trainer Quest", quests = {72172, 72175, 72173}, coords = "Valdrakken 31.05 61.38"},
-    {name = "Consortium Trade Quest", quests = {66884, 72423, 66935}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Consortium Trade Quest", quests = {66884, 72423, 66935, 66900}, coords = "Valdrakken 36.84 62.95"},
 
     -- items
     {name = "Prismatic Focusing Shard", quests = {66377}, info = "Expedition Scout's Pack or Disturbed Dirt"},
