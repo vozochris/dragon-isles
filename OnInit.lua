@@ -187,7 +187,7 @@ aura_env.dragon_isles_alchemy = {
 aura_env.dragon_isles_blacksmithing = {
     -- weekly
     {name = "Treatise", quests = {74109}},
-    {name = "Profession Trainer Quest", quests = {70233, 70235, 70234}, coords = "Valdrakken 36.97 47.10"},
+    {name = "Profession Trainer Quest", quests = {70233, 70235, 70234, 70211}, coords = "Valdrakken 36.97 47.10"},
     {name = "Consortium Trade Quest", quests = {66517, 66897, 66941}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70589}, coords = "Valdrakken 35.37 58.79"},
 
@@ -332,6 +332,7 @@ aura_env.dragon_isles_mining = {
 
     -- items
     {name = "Iridescent Ore", quests = {72160, 72161, 72162, 72163, 72164, 72165}, completed_on = 6},
+    -- Unyielding Stone Chunk 66936 ?
 
     -- one-time
     {name = "Notes", quests = {71901}},
@@ -341,7 +342,7 @@ aura_env.dragon_isles_mining = {
 aura_env.dragon_isles_skinning = {
     -- weekly
     {name = "Treatise", quests = {74114}},
-    {name = "Profession Trainer Quest", quests = {72159, 70620, 70619}, coords = "Valdrakken 28.56 60.41"},
+    {name = "Profession Trainer Quest", quests = {72159, 70620, 70619, 72158}, coords = "Valdrakken 28.56 60.41"},
 
     -- items
     {name = "Curious Hide Scrap", quests = {70381, 70383, 70384, 70385, 70386}},
@@ -354,8 +355,8 @@ aura_env.dragon_isles_skinning = {
 aura_env.dragon_isles_tailoring = {
     -- weekly
     {name = "Treatise", quests = {74115}},
-    {name = "Profession Trainer Quest", quests = {70582, 70586, 70572}, coords = "Valdrakken 31.91 67.18"},
-    {name = "Consortium Trade Quest", quests = {72410}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Profession Trainer Quest", quests = {70582, 70586, 70572, 70587}, coords = "Valdrakken 31.91 67.18"},
+    {name = "Consortium Trade Quest", quests = {72410, 66952, 66953}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70595}, coords = "Valdrakken 35.37 58.79"},
 
     -- items
