@@ -328,7 +328,7 @@ aura_env.dragon_isles_leatherworking = {
 aura_env.dragon_isles_mining = {
     -- weekly
     {name = "Treatise", quests = {74106}},
-    {name = "Profession Trainer Quest", quests = {70618, 72157, 70617}, coords = "Valdrakken 38.87 51.45"},
+    {name = "Profession Trainer Quest", quests = {70618, 72157, 70617, 72156}, coords = "Valdrakken 38.87 51.45"},
 
     -- items
     {name = "Iridescent Ore", quests = {72160, 72161, 72162, 72163, 72164, 72165}, completed_on = 6},
