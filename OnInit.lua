@@ -263,7 +263,7 @@ aura_env.dragon_isles_inscription = {
     -- weekly
     {name = "Treatise", quests = {74105}},
     {name = "Profession Trainer Quest", quests = {70558, 70559, 70561, 70560}, coords = "Valdrakken 38.83 73.33"},
-    {name = "Consortium Trade Quest", quests = {66943, 66944, 72438}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Consortium Trade Quest", quests = {66943, 66944, 66945, 72438}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70592}, coords = "Valdrakken 35.37 58.79"},
 
     -- items
