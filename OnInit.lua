@@ -11,7 +11,7 @@ aura_env.dragon_isles_general = {
 aura_env.dragon_isles_obsidian_citadel = {
     {name = "Allegiance to One", quests = {66419}},
     {name = "Talonstalker Kavia Quests", quests = {69918, 66633, 65842, 66103}, completed_on = 2},
-    {name = "Exadria Quests", quests = {67099, 66445, 66321, 66449, 67142, 69984, 67051}, completed_on = 2},
+    {name = "Exadria Quests", quests = {67099, 66445, 66321, 66449, 67142, 67051}, completed_on = 2},
     {name = "Stoker Volrax Quest", quests = {66308, 66326}},
     --Wrathion
     {name = "Keys of Loyalty", quests = {66133}, required_quests = {66802}},
