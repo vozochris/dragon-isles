@@ -280,7 +280,7 @@ aura_env.dragon_isles_jewelcrafting = {
     -- weekly
     {name = "Treatise", quests = {74112}},
     {name = "Profession Trainer Quest", quests = {70563, 70565, 70564, 70562}, coords = "Valdrakken 40.81 61.12"},
-    {name = "Consortium Trade Quest", quests = {66516, 66950, 72428}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Consortium Trade Quest", quests = {66516, 66950, 72428, 66949}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70593}, coords = "Valdrakken 35.37 58.79"},
 
     -- items
