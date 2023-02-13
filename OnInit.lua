@@ -204,7 +204,7 @@ aura_env.dragon_isles_blacksmithing = {
 aura_env.dragon_isles_enchanting = {
     -- weekly
     {name = "Treatise", quests = {74110}},
-    {name = "Profession Trainer Quest", quests = {72172, 72175, 72173}, coords = "Valdrakken 31.05 61.38"},
+    {name = "Profession Trainer Quest", quests = {72172, 72175, 72173, 72155}, coords = "Valdrakken 31.05 61.38"},
     {name = "Consortium Trade Quest", quests = {66884, 72423, 66935, 66900}, coords = "Valdrakken 36.84 62.95"},
 
     -- items
@@ -228,7 +228,7 @@ aura_env.dragon_isles_enchanting = {
 aura_env.dragon_isles_engineering = {
     -- weekly
     {name = "Treatise", quests = {74111}},
-    {name = "Profession Trainer Quest", quests = {70540, 70557, 70545, 66942}, coords = "Valdrakken 42.25 48.62"},
+    {name = "Profession Trainer Quest", quests = {70540, 70557, 70545}, coords = "Valdrakken 42.25 48.62"},
     {name = "Consortium Trade Quest", quests = {66891, 66890, 66942, 72396}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70591}, coords = "Valdrakken 35.37 58.79"},
 
@@ -305,7 +305,7 @@ aura_env.dragon_isles_leatherworking = {
     -- weekly
     {name = "Treatise", quests = {74113}},
     {name = "Profession Trainer Quest", quests = {70571, 70567, 70569, 70568}, coords = "Valdrakken 28.56 61.33"},
-    {name = "Consortium Trade Quest", quests = {66364, 66363, 72407, 66951}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Consortium Trade Quest", quests = {66364, 66363, 72407, 66951, 66364}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70594}, coords = "Valdrakken 35.37 58.79"},
 
     -- items
