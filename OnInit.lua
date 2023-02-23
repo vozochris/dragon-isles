@@ -249,7 +249,7 @@ aura_env.dragon_isles_engineering = {
 aura_env.dragon_isles_herbalism = {
     -- weekly
     {name = "Treatise", quests = {74107}},
-    {name = "Profession Trainer Quest", quests = {70613, 70616, 70614}, coords = "Valdrakken 37.72 67.95"},
+    {name = "Profession Trainer Quest", quests = {70613, 70614, 70615, 70616}, coords = "Valdrakken 37.72 67.95"},
 
     -- items
     {name = "Dreambloom", quests = {71857, 71858, 71859, 71860, 71861, 71864}, completed_on = 6},
