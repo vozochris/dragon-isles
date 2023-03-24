@@ -6,6 +6,7 @@ aura_env.dragon_isles_general = {
     {name = "Grand Hunt", quests = {70906}},
     {name = "Community Feast", quests = {70893}},
     {name = "World Boss", quests = {72056, 72055, 72054, 72057}},
+    {name = "Show Your Mettle", quests = {70221}},
 }
 
 aura_env.dragon_isles_obsidian_citadel = {
@@ -116,6 +117,46 @@ aura_env.dragon_isles_thaldraszus = {
     {name = "Woolfang", quests = {69850}, info = "agi dagger, leather chest", coords = "47.8 49.8"},
 }
 
+aura_env.dragon_isles_forbidden_reach = {
+    -- Rares
+    {name = "Vakren the Hunter", quests = {73111}, coords = "58.22 48.36"},
+    {name = "Gahz'raxes", quests = {73095}, coords = "28.3 38"},
+    {name = "Ishyra", quests = {73100}, coords = "41 14"},
+    {name = "Reisa the Drowned", quests = {73117}, coords = "47.7 20.6"},
+    {name = "Duzalgor", quests = {73881}, coords = "37 31.8"},
+    {name = "Bonesifter Marwak", quests = {74341}, coords = "42.7 60.9"},
+    {name = "Galakhad", quests = {73152}, coords = "44.7 79.1"},
+    {name = "Grugoth the Hullcrusher", quests = {73154}, coords = "43.7 90.7"},
+    {name = "Lady Shaz'ra", quests = {73222}, coords = "61.2 58.1"},
+    {name = "Veltrax", quests = {70517}, coords = "72.8 67.5"},
+    {name = "Mad-Eye Carrey", quests = {74283}, coords = "69.3 46.2"},
+    {name = "Wyrmslayer Angvardi", quests = {73409}, coords = "61.59 33.86"},
+    {name = "Warden Entrix", quests = {73367}, coords = "51.9 59.7"},
+    {name = "Ookbeard", quests = {73366}, coords = "36.7 11.8"},
+    {name = "Pyrachniss", quests = {73385}, coords = "51.9 59.7"},
+    {name = "Volcanakk", quests = {73225}, coords = "74.4 54.6"},
+
+    {name = "Luttrok", quests = {73167}, coords = "55.96 51.69"},
+
+    -- Profession Rares
+    {name = "Tectonus", quests = {74329}, coords = "78.77 35.76", required_profession = "Mining"},
+    {name = "Sir Pinchalot", quests = {74305}, coords = "44.29 75.11", required_profession = "Fishing"},
+    {name = "Manathema", quests = {74306}, coords = "49.24 41.88", required_profession = "Enchanting"},
+    {name = "Snarfang", quests = {74307}, coords = "65 72.6", required_profession = "Leatherworking"},
+    {name = "Gareed", quests = {74321}, coords = "60.46 91.29", required_profession = "Tailoring"},
+    {name = "Faunos", quests = {74322}, coords = "45 36", required_profession = "Skinning"},
+    {name = "Tidesmith Zarviss", quests = {74325}, coords = "67.26 76.17", required_profession = "Blacksmithing"},
+    {name = "Arcantrix", quests = {74328}, coords = "43 78.3", required_profession = "Inscription"},
+    {name = "Kangalo", quests = {74329}, coords = "35.39 40.13", required_profession = "Herbalism"},
+    {name = "Fimbol", quests = {74330}, coords = "67 61.4", required_profession = "Engineering"},
+    {name = "Agni Blazehoof", quests = {74331}, coords = "40.35 53.1", required_profession = "Alchemy"},
+    {name = "Luttrok", quests = {74332}, coords = "23 67", required_profession = "Cooking"},
+    {name = "Amephyst", quests = {74333}, coords = "29 57", required_profession = "Jewelcrafting"},
+    
+    -- Treasures
+    {name = "Storm-Bound Chest", quests = {74567}, coords = "48.76 73.36"},
+}
+
 -- Elemental Storms
 
 aura_env.dragon_isles_primal_cores = {
@@ -162,7 +203,7 @@ aura_env.dragon_isles_quests = {
 aura_env.dragon_isles_alchemy = {
     -- weekly
     {name = "Treatise", quests = {74108}},
-    {name = "Profession Trainer Quest", quests = {70531, 70533, 70532, 70530}, coords = "Valdrakken 36.41 71.69"},
+    {name = "Profession Trainer Quest", quests = {70530, 70531, 70533, 70532}, coords = "Valdrakken 36.41 71.69"},
     {name = "Consortium Trade Quest", quests = {66940, 72427, 66937, 66938}, coords = "Valdrakken 36.84 62.95"},
 
     -- items
@@ -228,7 +269,7 @@ aura_env.dragon_isles_enchanting = {
 aura_env.dragon_isles_engineering = {
     -- weekly
     {name = "Treatise", quests = {74111}},
-    {name = "Profession Trainer Quest", quests = {70540, 70557, 70545}, coords = "Valdrakken 42.25 48.62"},
+    {name = "Profession Trainer Quest", quests = {70539, 70540, 70557, 70545}, coords = "Valdrakken 42.25 48.62"},
     {name = "Consortium Trade Quest", quests = {66891, 66890, 66942, 72396}, coords = "Valdrakken 36.84 62.95"},
     {name = "Work Orders Quest", quests = {70591}, coords = "Valdrakken 35.37 58.79"},
 
@@ -387,6 +428,16 @@ aura_env.quest_completed = function(quest)
     return C_QuestLog.IsQuestFlaggedCompleted(quest)
 end
 
+local function check_profession(entry, prof)
+    if prof then
+        local name, _, skill_level = GetProfessionInfo(prof)
+        if entry.required_profession == name and skill_level >= 25 then
+            return true
+        end
+    end
+    return false
+end
+
 aura_env.add_lines = function(states, entries, separator, starting_index, is_NPC)
     local index = starting_index + 1
     local added_lines = false
@@ -397,8 +448,26 @@ aura_env.add_lines = function(states, entries, separator, starting_index, is_NPC
         local show = false
         local has_vignette = false
         local requirement = true
+        local profession_filtered = false
         local filtered = false
         local completed_on = entry.completed_on or 1
+
+        if entry.required_profession then
+            profession_filtered = true
+            local prof1, prof2, _, fishing, cooking = GetProfessions()
+            if check_profession(entry, prof1) then
+                profession_filtered = false
+            end
+            if profession_filtered and check_profession(entry, prof2) then
+                profession_filtered = false
+            end
+            if profession_filtered and check_profession(entry, fishing) then
+                profession_filtered = false
+            end
+            if profession_filtered and check_profession(entry, cooking) then
+                profession_filtered = false
+            end
+        end
         
         for _, filter in ipairs(aura_env.config["filter"]) do
             if (entry.name == filter.name) then
@@ -406,7 +475,7 @@ aura_env.add_lines = function(states, entries, separator, starting_index, is_NPC
             end
         end
         
-        if not filtered and entry.required_quests then
+        if not filtered and not profession_filtered and entry.required_quests then
             for _, required_quest in ipairs(entry.required_quests) do
                 if not aura_env.quest_completed(required_quest) then
                     requirement = false
@@ -415,7 +484,7 @@ aura_env.add_lines = function(states, entries, separator, starting_index, is_NPC
             end
         end
         
-        if not filtered and requirement then
+        if not filtered and not profession_filtered and requirement then
             for _, quest in ipairs(entry.quests) do
                 quests_count = quests_count + 1
                 if aura_env.quest_completed(quest) then
@@ -432,7 +501,7 @@ aura_env.add_lines = function(states, entries, separator, starting_index, is_NPC
                 end
             end
             show = true
-        elseif not filtered and requirement and aura_env.config["show_completed"] then
+        elseif not filtered and not profession_filtered and requirement and aura_env.config["show_completed"] then
             show = true
         end
         if show then

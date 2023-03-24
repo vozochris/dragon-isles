@@ -46,6 +46,10 @@ function(states, event, ...)
         end
     end
 
+    if not aura_env.config["hide_forbidden_reach"] then
+        index = aura_env.add_lines(states, aura_env.dragon_isles_forbidden_reach, "Forbidden Reach", index)
+    end
+
     if not aura_env.config["hide_primal_cores"] then
         index = aura_env.add_lines(states, aura_env.dragon_isles_primal_cores, "Primal Cores", index)
     end
