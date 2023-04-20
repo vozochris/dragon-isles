@@ -128,15 +128,13 @@ aura_env.dragon_isles_forbidden_reach = {
     {name = "Galakhad", quests = {73152}, coords = "44.7 79.1"},
     {name = "Grugoth the Hullcrusher", quests = {73154}, coords = "43.7 90.7"},
     {name = "Lady Shaz'ra", quests = {73222}, coords = "61.2 58.1"},
-    {name = "Veltrax", quests = {70517}, coords = "72.8 67.5"},
+    {name = "Veltrax", quests = {73229}, coords = "72.8 67.5"},
     {name = "Mad-Eye Carrey", quests = {74283}, coords = "69.3 46.2"},
     {name = "Wyrmslayer Angvardi", quests = {73409}, coords = "61.59 33.86"},
     {name = "Warden Entrix", quests = {73367}, coords = "51.9 59.7"},
     {name = "Ookbeard", quests = {73366}, coords = "36.7 11.8"},
     {name = "Pyrachniss", quests = {73385}, coords = "51.9 59.7"},
     {name = "Volcanakk", quests = {73225}, coords = "74.4 54.6"},
-
-    {name = "Luttrok", quests = {73167}, coords = "55.96 51.69"},
 
     -- Profession Rares
     {name = "Tectonus", quests = {74329}, coords = "78.77 35.76", required_profession = "Mining"},
@@ -150,7 +148,7 @@ aura_env.dragon_isles_forbidden_reach = {
     {name = "Kangalo", quests = {74329}, coords = "35.39 40.13", required_profession = "Herbalism"},
     {name = "Fimbol", quests = {74330}, coords = "67 61.4", required_profession = "Engineering"},
     {name = "Agni Blazehoof", quests = {74331}, coords = "40.35 53.1", required_profession = "Alchemy"},
-    {name = "Luttrok", quests = {74332}, coords = "23 67", required_profession = "Cooking"},
+    {name = "Luttrok", quests = {74332}, coords = "23 67", required_profession = "Cooking"},-- 73167
     {name = "Amephyst", quests = {74333}, coords = "29 57", required_profession = "Jewelcrafting"},
     
     -- Treasures
